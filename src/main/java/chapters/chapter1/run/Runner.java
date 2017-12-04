@@ -2,6 +2,7 @@ package chapters.chapter1.run;
 
 import chapters.chapter1.controller.SortNumbers;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 /**
@@ -29,6 +30,5 @@ public class Runner {
         {
             System.out.print(sortNumbers.sortDescendingOrder(array)[i]+", ");
         }
-
     }
 }
